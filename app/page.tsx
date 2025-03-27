@@ -1,9 +1,12 @@
 import Image from "next/image";
+import Marquee from "@/components/marquee/Marquee";
+import Navbar from "@/components/navbar/Navbar";
 
 export default function Home() {
   return (
    <>
-    <h1>Home page</h1>
+      {/* <Marquee /> */}
+      <Navbar /> 
    </>
   );
 }
