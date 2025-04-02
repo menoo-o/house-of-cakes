@@ -1,6 +1,6 @@
 "use client";
 
-import { Sheet, SheetTrigger, SheetContent, SheetTitle, SheetClose } from "@/components/ui/sheet";
+import { Sheet, SheetTrigger, SheetContent, SheetTitle, } from "@/components/ui/sheet";
 import Link from "next/link";
 import Image from "next/image";
 import { Menu } from "lucide-react";
