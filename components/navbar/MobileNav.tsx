@@ -20,7 +20,7 @@ export default function MobileNav() {
         <SheetContent side="left" className="w-[315px] bg-white shadow-lg p-5 flex flex-col h-full">
 
    
-            {/* Account Section */}
+            {/* Accounts Section */}
             <div className="mt-4 mb-6">
                 <Link href="/account" className="flex items-center gap-3 text-lg font-medium text-gray-800 hover:text-pink-600 transition">
                 Account <Image src="/icons/personn.svg" alt="Account" width={24} height={24} />
