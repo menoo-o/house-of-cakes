@@ -122,8 +122,3 @@
 }
 
 
-
-/* hidding shadcn default sheetclose btn  */
-[data-state="open"] button[data-radix-dialog-close] {
-  display: none;
-}
