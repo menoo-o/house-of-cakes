@@ -12,7 +12,8 @@
     letter-spacing: 2.5px;
     font-size: 0.8em;
     height: 1.75em; /* Fixed height to show one line at a time */
-    z-index: 2001;
+    z-index: 1;
+    margin-top: 5px;
   }
   
   /* Marquee Content */
