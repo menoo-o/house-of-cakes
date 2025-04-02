@@ -32,7 +32,8 @@ export default function MobileNav() {
          src="/logo.png" 
          alt="Logo" 
          width={100} 
-         height={40} 
+         height={40}
+         quality={100}  // Increase quality 
          className="object-contain p-1 scale-160 md:scale-180 lg:scale-140"
       />
 

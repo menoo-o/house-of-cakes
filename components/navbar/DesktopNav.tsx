@@ -8,8 +8,9 @@ export default function DesktopNav() {
          src="/logo.png" 
          alt="Logo" 
          width={90} 
-         height={90}
-        className="scale-100 md:scale-185 lg:scale-190 hover:scale-150 object-contain p-1" 
+         height={90}    
+         quality={100}  // Increase quality
+         className="scale-100 md:scale-125 lg:scale-250 xl:scale-290 2xl:scale-320 object-contain p-1"
     />
 
       <input type="text" placeholder="Search..."  className="w-1/3 p-2 border rounded-md focus:outline-none" />
