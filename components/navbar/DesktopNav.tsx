@@ -3,15 +3,16 @@ import Link from "next/link";
 
 export default function DesktopNav() {
   return (
-    <nav className="flex items-center justify-between p-4">
-      <Image 
-         src="/logo.png" 
-         alt="Logo" 
-         width={90} 
-         height={90}    
-         quality={100}  // Increase quality
-         className="scale-100 md:scale-125 lg:scale-220 xl:scale-290 2xl:scale-320 object-contain p-1"
-    />
+    <nav className="flex items-center justify-between p-4 overflow-visible">
+      <Image
+        src="/logo.png"
+        alt="Logo"
+        width={512}
+        height={512}
+        quality={100}
+        className="w-[90px] h-[90px] md:w-[120px] md:h-[120px] lg:w-[180px] lg:h-[180px] xl:w-[250px] xl:h-[250px] 
+                  object-contain p-1 -mt-6"
+      />
 
       <input type="text" placeholder="Search..."  className="w-1/3 p-2 border rounded-md focus:outline-none" />
 

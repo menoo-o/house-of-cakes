@@ -76,6 +76,13 @@
   --sidebar-accent-foreground: oklch(0.205 0 0);
   --sidebar-border: oklch(0.922 0 0);
   --sidebar-ring: oklch(0.708 0 0);
+  
+  /* COLOR PALLETE */
+  --Rosy-Brown:  #BD9786;
+  --Orange-Pantone: #FF580A;
+  --Seashell: #F4E8E2;
+  --walnut-brown: #625853;
+  --brown: #9A380E;
 }
 
 .dark {

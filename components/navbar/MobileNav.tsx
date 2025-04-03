@@ -69,7 +69,7 @@ export default function MobileNav() {
          width={100} 
          height={100}
          quality={100}  // Increase quality 
-         className="object-contain p-1 scale-150 md:scale-180 lg:scale-140"
+         className="object-contain p-1 scale-180 md:scale-180 lg:scale-140"
       />
 
       {/* Cart Icon */}
