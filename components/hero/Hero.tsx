@@ -17,14 +17,14 @@ const Hero: React.FC = () => {
         <div className="mt-6 flex flex-row sm:flex-row gap-4">
           <a 
             href="/https://www.instagram.com/houseofcakeslc"
-            className="bg-[var(--Orange-Pantone)] text-white font-semibold py-3 px-6 rounded-lg shadow-lg transition-all hover:scale-105"
+            className="bg-[var(--Orange-Pantone)] text-white font-semibold py-2.5 px-8 rounded-lg shadow-lg transition-all hover:scale-105"
           >
             Order Now
           </a>
 
           <a 
             href="/https://www.instagram.com/houseofcakeslc"
-            className="border-2 border-[var(--brown)] text-[var(--brown)] font-semibold py-3 px-6 rounded-lg shadow-lg transition-all hover:bg-[var(--brown)] hover:text-white"
+            className="border-2 border-[var(--brown)] text-[var(--brown)] font-semibold py-2.5 px-8 rounded-lg shadow-lg transition-all hover:bg-[var(--brown)] hover:text-white"
           >
             Shop Range
           </a>
@@ -32,13 +32,14 @@ const Hero: React.FC = () => {
       </div>
 
       {/* RIGHT IMAGE BLOCK (Appears first on mobile) */}
+
       <div className="relative w-full lg:w-1/2 h-[350px] md:h-[450px] lg:h-full">
         <Image 
           src="/cake.jpg" 
           alt="Hero Image" 
-          layout="fill"
-          objectFit="cover"
-          className="absolute inset-0"
+          fill
+          
+          className="absolute inset-0 object-cover"
         />
       </div>
 
