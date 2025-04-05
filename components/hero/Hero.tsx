@@ -7,19 +7,19 @@ const Hero: React.FC = () => {
       
       {/* LEFT TEXT BLOCK (Appears below the image on mobile) */}
       <div className="w-full lg:w-1/2 p-6 lg:p-12 text-center lg:text-left bg-[var(--pure-white)] flex flex-col justify-center items-center lg:items-start">
-      <h1 className="text-4xl md:text-5xl font-bold text-[var(--brown)] uppercase">
+      <h1 className="text-4xl md:text-7xl font-bold text-[var(--brown)] uppercase">
         House of Cakes
       </h1>
-        <h3 className="text-xl md:text-2xl text-[var(--walnut-brown)] mt-2">
+        <h3 className="text-xl md:text-4xl text-[var(--walnut-brown)] mt-4">
           For delicious breaks
         </h3>
 
         {/* BUTTONS */}
-        <div className="mt-6 flex flex-row sm:flex-row gap-4">
+        <div className="mt-6 md:mt-8 flex flex-row sm:flex-row gap-4">
           <Link 
             target="_blank"
             href="https://www.instagram.com/houseofcakeslc"
-            className="bg-[var(--Orange-Pantone)] text-white font-semibold py-2.5 px-8 rounded-lg shadow-lg transition-all hover:scale-105"
+            className="bg-[var(--Orange-Pantone)] text-white font-semibold md:text-xl py-2.5 md:px-10 px-8 rounded-lg shadow-lg transition-all hover:scale-105"
           >
             Order Now
           </Link>
@@ -27,7 +27,7 @@ const Hero: React.FC = () => {
           <Link
             target="_blank"
             href="https://www.instagram.com/houseofcakeslc"
-            className="border-2 border-[var(--brown)] text-[var(--brown)] font-semibold py-2.5 px-8 rounded-lg shadow-lg transition-all hover:bg-[var(--brown)] hover:text-white"
+            className="border-2 border-[var(--brown)] text-[var(--brown)] md:text-xl font-semibold py-2.5 md:px-10 px-8 rounded-lg shadow-lg transition-all hover:bg-[var(--brown)] hover:text-white"
           >
             Shop Range
           </Link>
