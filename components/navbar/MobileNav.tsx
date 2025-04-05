@@ -38,7 +38,7 @@ export default function MobileNav() {
     </li>
     <li>
       <Link
-        href="/cakes"
+        href="/"
         className="hover:underline underline-offset-4 decoration-[var(--Orange-Pantone)] transition duration-200"
       >
         Cakes
@@ -54,7 +54,7 @@ export default function MobileNav() {
     </li>
     <li>
       <Link
-        href="/biscuits"
+        href="/"
         className="hover:underline underline-offset-4 decoration-[var(--Orange-Pantone)] transition duration-200"
       >
         Biscuits
@@ -62,7 +62,7 @@ export default function MobileNav() {
     </li>
     <li>
       <Link
-        href="/gifts"
+        href="/"
         className="hover:underline underline-offset-4 decoration-[var(--Orange-Pantone)] transition duration-200"
       >
         Gifts
@@ -75,7 +75,8 @@ export default function MobileNav() {
     <ul className="space-y-2 text-sm text-[var(--walnut-brown)]">
       <li>
         <Link
-          href="/contact"
+          href="https://www.instagram.com/houseofcakeslc"
+          target="_blank"
           className="hover:underline underline-offset-4 decoration-[var(--Rosy-Brown)] transition duration-200"
         >
           Contact Us
@@ -83,7 +84,7 @@ export default function MobileNav() {
       </li>
       <li>
         <Link
-          href="/order-info"
+          href="/"
           className="hover:underline underline-offset-4 decoration-[var(--Rosy-Brown)] transition duration-200"
         >
           Order Info
@@ -91,7 +92,7 @@ export default function MobileNav() {
       </li>
       <li>
         <Link
-          href="/product-care"
+          href="/"
           className="hover:underline underline-offset-4 decoration-[var(--Rosy-Brown)] transition duration-200"
         >
           Product Care Info
