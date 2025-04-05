@@ -39,11 +39,11 @@ const DesktopNavbar = () => {
       {/* Right: Icons */}
       <div className="flex justify-end items-center space-x-6">
          <Link href="https://instagram.com" className="hover:scale-110 transition" target="_blank">
-                        <Image src="/icons/instacol.svg" alt="Instagram" width={30} height={30} />
-                        </Link>
-                        <Link href="https://tiktok.com" className="hover:scale-110 transition" target="_blank">
-                        <Image src="/icons/tiktokcol.svg" alt="TikTok" width={30} height={30} />
-          </Link>
+              <Image src="/icons/instacol.svg" alt="Instagram" width={30} height={30} />
+        </Link>
+        <Link href="https://tiktok.com" className="hover:scale-110 transition" target="_blank">
+             <Image src="/icons/tiktokcol.svg" alt="TikTok" width={30} height={30} />
+        </Link>
       </div>
     </header>
   );

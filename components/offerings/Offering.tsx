@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const Offering = () => {
   return (
-    <section className="px-4 py-10 md:py-16 md:mt-10 bg-[#f7f4f2]">
+    <section className="px-4 py-10 md:py-16 md:mt-16 bg-[#f7f4f2]">
       <h2 className="text-4xl md:text-6xl font-bold text-center mb-10 md:mb-15 text-[#513516]">
       Treats for Every Taste
       </h2>
@@ -17,7 +17,7 @@ const Offering = () => {
             className="object-cover rounded-xl shadow-md"
           />
           <div className="absolute inset-0 bg-black/15 group-hover:bg-black/2 transition rounded-xl" />
-          <h3 className="absolute bottom-5 left-5 text-white text-4xl md:text-6xl font-semibold tracking-wide">
+          <h3 className="absolute bottom-5 left-5 text-white text-3xl md:text-6xl font-semibold tracking-wide">
             Cakes
           </h3>
         </div>
@@ -33,7 +33,7 @@ const Offering = () => {
               className="object-cover rounded-xl shadow-md"
             />
             <div className="absolute inset-0 bg-black/15 group-hover:bg-black/2 transition rounded-xl" />
-            <h3 className="absolute bottom-4 left-4 text-white text-4xl md:text-5xl font-semibold">
+            <h3 className="absolute bottom-4 left-4 text-white text-3xl md:text-5xl font-semibold">
               Cupcakes
             </h3>
           </div>
@@ -47,7 +47,7 @@ const Offering = () => {
               className="object-cover rounded-xl shadow-md"
             />
             <div className="absolute inset-0 bg-black/15 group-hover:bg-black/2 transition rounded-xl" />
-            <h3 className="absolute bottom-4 left-4 text-white text-4xl md:text-5xl font-semibold">
+            <h3 className="absolute bottom-4 left-4 text-white text-3xl md:text-5xl font-semibold">
               Biscuits
             </h3>
           </div>

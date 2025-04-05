@@ -3,7 +3,7 @@ import Link from "next/link";
 
 const Hero: React.FC = () => {
   return (
-    <div className="flex flex-col-reverse lg:flex-row items-center justify-between w-full h-auto lg:h-[550px]">
+    <div className="flex flex-col-reverse lg:flex-row items-center justify-between w-full h-auto lg:h-[550px] ">
       
       {/* LEFT TEXT BLOCK (Appears below the image on mobile) */}
       <div className="w-full lg:w-1/2 p-6 lg:p-12 text-center lg:text-left bg-[var(--pure-white)] flex flex-col justify-center items-center lg:items-start">
