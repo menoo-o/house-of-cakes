@@ -22,30 +22,85 @@ export default function MobileNav() {
    
             {/* Accounts Section */}
             <div className="mt-4 mb-6">
-                <Link href="/account" className="flex items-center gap-3 text-lg font-medium text-gray-800 hover:text-pink-600 transition">
-                Account <Image src="/icons/personn.svg" alt="Account" width={24} height={24} />
-                </Link>
+              
             </div>
 
-            {/* Main Navigation */}
-            <nav>
-                <ul className="space-y-4 text-lg font-medium text-gray-800">
-                <li><Link href="/" className="hover:text-pink-600 transition">Easter</Link></li>
-                <li><Link href="/cakes" className="hover:text-pink-600 transition">Cakes</Link></li>
-                <li><Link href="/cupcakes" className="hover:text-pink-600 transition">Cupcakes</Link></li>
-                <li><Link href="/biscuits" className="hover:text-pink-600 transition">Biscuits</Link></li>
-                <li><Link href="/gifts" className="hover:text-pink-600 transition">Gifts</Link></li>
-                </ul>
-            </nav>
+          {/* Main Navigation */}
+<nav className="bg-white px-5 py-10">
+  <ul className="space-y-5 text-lg font-semibold text-[var(--brown)]">
+    <li>
+      <Link
+        href="/"
+        className="hover:underline underline-offset-4 decoration-[var(--Orange-Pantone)] transition duration-200"
+      >
+        Easter
+      </Link>
+    </li>
+    <li>
+      <Link
+        href="/cakes"
+        className="hover:underline underline-offset-4 decoration-[var(--Orange-Pantone)] transition duration-200"
+      >
+        Cakes
+      </Link>
+    </li>
+    <li>
+      <Link
+        href="/cupcakes"
+        className="hover:underline underline-offset-4 decoration-[var(--Orange-Pantone)] transition duration-200"
+      >
+        Cupcakes
+      </Link>
+    </li>
+    <li>
+      <Link
+        href="/biscuits"
+        className="hover:underline underline-offset-4 decoration-[var(--Orange-Pantone)] transition duration-200"
+      >
+        Biscuits
+      </Link>
+    </li>
+    <li>
+      <Link
+        href="/gifts"
+        className="hover:underline underline-offset-4 decoration-[var(--Orange-Pantone)] transition duration-200"
+      >
+        Gifts
+      </Link>
+    </li>
+  </ul>
 
-            {/* Additional Info */}
-            <div className="mt-10 border-t pt-5">
-                <ul className="space-y-2 text-sm text-gray-600">
-                <li><Link href="/contact" className="hover:text-pink-600 transition">Contact Us</Link></li>
-                <li><Link href="/order-info" className="hover:text-pink-600 transition">Order Info</Link></li>
-                <li><Link href="/product-care" className="hover:text-pink-600 transition">Product Care Info</Link></li>
-                </ul>
-            </div>
+  {/* Additional Info */}
+  <div className="mt-10 border-t border-[var(--walnut-brown)] pt-5">
+    <ul className="space-y-2 text-sm text-[var(--walnut-brown)]">
+      <li>
+        <Link
+          href="/contact"
+          className="hover:underline underline-offset-4 decoration-[var(--Rosy-Brown)] transition duration-200"
+        >
+          Contact Us
+        </Link>
+      </li>
+      <li>
+        <Link
+          href="/order-info"
+          className="hover:underline underline-offset-4 decoration-[var(--Rosy-Brown)] transition duration-200"
+        >
+          Order Info
+        </Link>
+      </li>
+      <li>
+        <Link
+          href="/product-care"
+          className="hover:underline underline-offset-4 decoration-[var(--Rosy-Brown)] transition duration-200"
+        >
+          Product Care Info
+        </Link>
+      </li>
+    </ul>
+  </div>
+</nav>
+
 
             {/* Social Icons - Placed Below Product Info */}
             <div className="mt-12 flex items-center gap-7 justify-center border-t pt-6">
