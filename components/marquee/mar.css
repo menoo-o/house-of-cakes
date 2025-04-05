@@ -69,3 +69,19 @@
   .marquee-content span:nth-child(3) {
     animation-delay: 8s; /* Third span starts after the second span has fully exited */
   }
+
+   /* Responsive adjustments */
+   @media (min-width: 768px) {
+      /* Marquee Container */
+.marquee-container {
+  padding: 15px 0;
+  font-size: 0.9em;
+  height: 1.8em; /* Fixed height to show one line at a time */
+}
+
+/* Marquee Content */
+.marquee-content {
+  margin: 3px 0; 
+}
+   
+  }

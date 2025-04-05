@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 const Hero: React.FC = () => {
   return (
@@ -15,19 +16,21 @@ const Hero: React.FC = () => {
 
         {/* BUTTONS */}
         <div className="mt-6 flex flex-row sm:flex-row gap-4">
-          <a 
-            href="/https://www.instagram.com/houseofcakeslc"
+          <Link 
+            target="_blank"
+            href="https://www.instagram.com/houseofcakeslc"
             className="bg-[var(--Orange-Pantone)] text-white font-semibold py-2.5 px-8 rounded-lg shadow-lg transition-all hover:scale-105"
           >
             Order Now
-          </a>
+          </Link>
 
-          <a 
-            href="/https://www.instagram.com/houseofcakeslc"
+          <Link
+            target="_blank"
+            href="https://www.instagram.com/houseofcakeslc"
             className="border-2 border-[var(--brown)] text-[var(--brown)] font-semibold py-2.5 px-8 rounded-lg shadow-lg transition-all hover:bg-[var(--brown)] hover:text-white"
           >
             Shop Range
-          </a>
+          </Link>
         </div>
       </div>
 
@@ -35,7 +38,7 @@ const Hero: React.FC = () => {
 
       <div className="relative w-full lg:w-1/2 h-[350px] md:h-[450px] lg:h-full">
         <Image 
-          src="/cake.jpg" 
+          src="/hero.jpg" 
           alt="Hero Image" 
           fill
           
