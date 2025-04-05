@@ -104,11 +104,11 @@ export default function MobileNav() {
 
             {/* Social Icons - Placed Below Product Info */}
             <div className="mt-12 flex items-center gap-7 justify-center border-t pt-6">
-                <Link href="https://instagram.com" className="hover:scale-110 transition">
-                <Image src="/icons/insta.svg" alt="Instagram" width={25} height={25} />
+                <Link href="https://www.tiktok.com/@houseofcakeslc" target="_blank" className="hover:scale-110 transition">
+                <Image src="/icons/instacol.svg" alt="Instagram" width={25} height={25} />
                 </Link>
-                <Link href="https://tiktok.com" className="hover:scale-110 transition">
-                <Image src="/icons/tiktok.svg" alt="TikTok" width={25} height={25} />
+                <Link href="https://www.tiktok.com/@houseofcakeslc" target="_blank" className="hover:scale-110 transition">
+                <Image src="/icons/tiktokcol.svg" alt="TikTok" width={25} height={25} />
                 </Link>
             </div>
 </SheetContent>

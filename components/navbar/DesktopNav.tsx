@@ -38,12 +38,12 @@ const DesktopNavbar = () => {
 
       {/* Right: Icons */}
       <div className="flex justify-end items-center space-x-6">
-        <Link href="/cart">
-          <Image src="/icons/basket.svg" alt="Cart" width={30} height={30} />
-        </Link>
-        <Link href="/account/login">
-          <Image src="/icons/personn.svg" alt="Login" width={33} height={33} />
-        </Link>
+         <Link href="https://instagram.com" className="hover:scale-110 transition" target="_blank">
+                        <Image src="/icons/instacol.svg" alt="Instagram" width={25} height={25} />
+                        </Link>
+                        <Link href="https://tiktok.com" className="hover:scale-110 transition" target="_blank">
+                        <Image src="/icons/tiktokcol.svg" alt="TikTok" width={25} height={25} />
+          </Link>
       </div>
     </header>
   );
